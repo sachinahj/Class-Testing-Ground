@@ -7,6 +7,7 @@
 //
 
 #import "SAViewController.h"
+#import "SADog.h"
 
 @interface SAViewController ()
 
@@ -18,6 +19,35 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *myString = @"The NewFoundland dog breed has webbed feet which aids in its swimming prowess";
+    NSArray *wordsInSentence = [myString componentsSeparatedByString:@" "];
+    NSLog(@"%@", wordsInSentence);
+    NSMutableArray *capitalizeWords = [[NSMutableArray alloc] init];
+//    for (int word = 0; word < [wordsInSentence count]; word++)
+//    {
+//        NSString *uncapitalizeWord = [wordsInSentence objectAtIndex:word];
+//        NSString *capitalizeWord = [uncapitalizeWord capitalizedString];
+//        [capitalizeWords addObject:capitalizeWord];
+//    }
+//    NSLog(@"%@", capitalizeWords);
+//
+//    for (NSString *word in wordsInSentence)
+//    {
+//        NSString *capitalizeWord = [word capitalizedString];
+//        [capitalizeWords addObject:capitalizeWord];
+//    }
+//    NSLog(@"%@", capitalizeWords);
+    
+    SADog *dog = [[SADog alloc] init];
+    [dog setName:@"Sparky"];
+    NSString *myDogsName = [dog name];
+    dog.name = @"sparky is awesome";
+    NSLog(@"%@", myDogsName);
+    NSLog(@"%@", dog.name);
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

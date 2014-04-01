@@ -21,6 +21,7 @@
 		039EBEE418C7BBC400977441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039EBEC618C7BBC400977441 /* UIKit.framework */; };
 		039EBEEC18C7BBC400977441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039EBEEA18C7BBC400977441 /* InfoPlist.strings */; };
 		039EBEEE18C7BBC400977441 /* ClassTestingGroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039EBEED18C7BBC400977441 /* ClassTestingGroundTests.m */; };
+		039EBEF918C7BFAC00977441 /* SADog.m in Sources */ = {isa = PBXBuildFile; fileRef = 039EBEF818C7BFAC00977441 /* SADog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		039EBEE918C7BBC400977441 /* ClassTestingGroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassTestingGroundTests-Info.plist"; sourceTree = "<group>"; };
 		039EBEEB18C7BBC400977441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039EBEED18C7BBC400977441 /* ClassTestingGroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassTestingGroundTests.m; sourceTree = "<group>"; };
+		039EBEF718C7BFAC00977441 /* SADog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SADog.h; sourceTree = "<group>"; };
+		039EBEF818C7BFAC00977441 /* SADog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SADog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				039EBED418C7BBC400977441 /* Main.storyboard */,
 				039EBED718C7BBC400977441 /* SAViewController.h */,
 				039EBED818C7BBC400977441 /* SAViewController.m */,
+				039EBEF718C7BFAC00977441 /* SADog.h */,
+				039EBEF818C7BFAC00977441 /* SADog.m */,
 				039EBEDA18C7BBC400977441 /* Images.xcassets */,
 				039EBEC918C7BBC400977441 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039EBEF918C7BFAC00977441 /* SADog.m in Sources */,
 				039EBED318C7BBC400977441 /* SAAppDelegate.m in Sources */,
 				039EBED918C7BBC400977441 /* SAViewController.m in Sources */,
 				039EBECF18C7BBC400977441 /* main.m in Sources */,
